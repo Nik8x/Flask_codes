@@ -23,7 +23,7 @@ def index():
 	"""
 
 @app.route('/vendor1/', methods = ["GET", "POST"])
-def netwise():
+def nwd():
 	errors = ""
 	if request.method == "POST":
 		cm_name = None
